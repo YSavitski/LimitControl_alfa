@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace LimitControl_alfa
 {
-    public partial class Form1 : Form
+    public partial class LimitsForm : Form
     {
-        public Form1()
+        public LimitsForm()
         {
             InitializeComponent();
+            this.CenterToScreen();
+            tbcMain.Dock = DockStyle.Fill;
+            tbListLimit.Dock = DockStyle.Fill;
         }
     }
 }
